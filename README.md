@@ -1,3 +1,5 @@
+Steps to follow-
+
 Phase 1: Database Design & Schema Mapping
 Define Data Schema (MySQL)
 
