@@ -1,4 +1,4 @@
-Steps to follow-
+Steps to follow- I am going to follow Front to Back procedure. 
 
 Phase 1: Database Design & Schema Mapping
 Define Data Schema (MySQL)
