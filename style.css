@@ -1,0 +1,76 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Top Contact Bar */
+.top-bar {
+    background-color: #f8f9fa;
+    font-size: 14px;
+    padding: 8px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Brand Logo Styling */
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+/* Hero Banner Section */
+.hero-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #0d6efd;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Section Padding */
+.section-padding {
+    padding: 60px 0;
+}
+
+/* Pricing Card Component */
+.package-card {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    background: #ffffff;
+}
+
+.package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.package-card ul li {
+    padding: 6px 0;
+    border-bottom: 1px inset #f0f0f0;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #212529;
+    color: #adb5bd;
+    padding: 40px 0 20px 0;
+}
+
+.footer h5 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-link {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #ffffff;
+}
