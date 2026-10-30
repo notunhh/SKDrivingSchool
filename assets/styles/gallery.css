@@ -1,0 +1,136 @@
+/* General Body Rules */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Top Contact Bar */
+.top-bar {
+    background-color: #f1f3f5;
+    font-size: 13.5px;
+    padding: 8px 0;
+    border-bottom: 1px solid #e9ecef;
+    color: #495057;
+}
+
+/* Page Header Banner */
+.page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://picsum.photos/1920/600?random=10') no-repeat center center;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.max-w-600 {
+    max-width: 600px;
+}
+
+/* Section Title Indicator */
+.section-title {
+    color: #212529;
+    position: relative;
+}
+
+.title-line {
+    width: 60px;
+    height: 3px;
+    background-color: #0d6efd;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+/* Gallery Card Hover Effects */
+.gallery-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    aspect-ratio: 4 / 3;
+}
+
+.gallery-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-card:hover img {
+    transform: scale(1.08);
+}
+
+/* Gallery Overlay */
+.gallery-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 60%, rgba(0, 0, 0, 0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.gallery-card:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-info h5 {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.zoom-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.zoom-btn:hover {
+    transform: scale(1.1);
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1a1d20;
+    color: #adb5bd;
+    padding: 50px 0 25px 0;
+}
+
+.footer h5 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.footer-link {
+    color: #adb5bd;
+    text-decoration: none;
+    line-height: 2;
+    transition: color 0.2s ease, padding-left 0.2s ease;
+}
+
+.footer-link:hover {
+    color: #0d6efd;
+    padding-left: 5px;
+}
+
+.social-links a {
+    font-size: 1.1rem;
+    transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: #0d6efd !important;
+}
